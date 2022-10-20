@@ -1,0 +1,96 @@
+.multiSelectForm {
+  background-color: rgb(236, 236, 236);
+  border-radius: 12px;
+  padding: 1em;
+}
+
+.selectionDisplayDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 1.4em;
+  position: relative;
+  color: grey;
+}
+
+.closedArrow,
+.openedArrow {
+  width: 0.6em;
+  height: 0.6em;
+  transform: rotate(45deg);
+  border: 2px solid transparent;
+  border-bottom-color: grey;
+  border-right-color: grey;
+  margin-bottom: 0.5em;
+}
+
+.openedArrow {
+  border: 2px solid transparent;
+  border-top-color: grey;
+  border-left-color: grey;
+  margin: 0.5em 0 0 0;
+}
+
+.selectionList {
+  display: flex;
+  align-items: center;
+}
+
+.selectedItem {
+  font-size: 0.7em;
+  background-color: rgb(192, 85, 192);
+  border-radius: 7px;
+  color: white;
+  padding: 0.5em;
+  margin-right: 0.5em;
+  white-space: nowrap;
+}
+
+.dots {
+  padding: 0 1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.searchInput {
+  border: none;
+  border-radius: 12px;
+  height: 2.5em;
+  padding: 0 1em;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.optionsDisplay {
+  line-height: 1.8;
+}
+
+.singleOption {
+  display: flex;
+  align-items: center;
+}
+
+.checkboxInput {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  cursor: pointer;
+  appearance: none;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 5px;
+}
+
+.checkboxInput:checked {
+  width: 1em;
+  height: 1em;
+  background-color: rgb(192, 85, 192);
+  border-color: rgb(192, 85, 192);
+}
