@@ -1,0 +1,8 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.home-container {
+  margin: 40px auto;
+  width: 50vw;
+  min-width: 300px;
+}
